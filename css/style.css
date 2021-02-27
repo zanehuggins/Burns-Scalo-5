@@ -16,7 +16,8 @@ h1 {
   font-family: macklin;
   font-weight: 900;
   font-style: italic;
-  color: #333033; }
+  color: white;
+  font-size: 40px; }
 
 h2 {
   font-family: gotham;
@@ -102,10 +103,14 @@ footer {
 /* ENDS FOOTER */
 /* ----------------------------------------------------------------- */
 /* BEGINS HOME */
+#home-1 h1 {
+  float: left;
+  position: absolute;
+  bottom: 10vh; }
 #home-1 .video-background {
   width: auto;
   height: 100vh;
-  z-index: 0; }
+  z-index: -100; }
 
 /* ENDS HOME */
 /* ----------------------------------------------------------------- */

@@ -27,7 +27,8 @@ h1{
 font-family: macklin;
 font-weight: 900;
 font-style: italic;
-color: $black;
+color: white;
+font-size: 40px;
 }
 
 h2{
@@ -142,10 +143,16 @@ padding: 0;
 /* BEGINS HOME */
 
 #home-1{
+  h1{
+    float: left;
+    position: absolute;
+    bottom: 10vh;
+  }
+  
   .video-background{
     width: auto;
     height: 100vh;
-    z-index: 0;
+    z-index: -100;
   }
 }
 
