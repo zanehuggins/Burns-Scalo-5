@@ -25,6 +25,16 @@ section{
     overflow: hidden;
 }
 
+embed{
+  height: 100vh;
+  width: 100vw;
+}
+
+object{
+  height: 100vh;
+  width: 100vw;  
+}
+
 .copy-container{
   background-color: rgba(229, 229, 229, .5);
   z-index: 1;
@@ -311,10 +321,7 @@ padding: 0;
 
 /* animation */
 
-embed{
-  height: 100vh;
-  width: 100vw;
-}
+
 
 #people{
 .svg1 {
