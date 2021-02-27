@@ -13,6 +13,7 @@ body{
 
 main{
   height: 100vh;
+  float: left;
   position: relative;
   overflow: hidden;
 }
@@ -34,7 +35,7 @@ h1{
 font-family: macklin;
 font-weight: 900;
 font-style: italic;
-color: white;
+color: black;
 font-size: 40px;
 }
 
@@ -124,6 +125,9 @@ header{
   margin-left: -10px!important;
   margin-top: 5px;
 }
+.top{
+  position: absolute;
+}
 /* ENDS HEADER */
 
 /* ----------------------------------------------------------------- */
@@ -171,14 +175,17 @@ padding: 0;
 
 /* BEGINS HOME */
 
-#conatiner-1{
+#container-1{
   h1{
-    float: left;
+
     position: absolute;
     bottom: 10vh;
+    z-index: 1;
+    color: white;
   }
 
   .video-background{
+    position: absolute;
     width: auto;
     height: 100vh;
     z-index: -100;
@@ -188,9 +195,30 @@ padding: 0;
 #container-2{
     padding: 0;
 
+    svg{
+      position: absolute;
+      z-index: 1;
+    }
+
+    .svg-v-1{
+      left: 8vw;
+    }
+
+    .svg-v-2{
+      right: 8vw;
+    }
+
+    .svg-h-1{
+      top: 52vh;
+    }
+
+    .svg-h-2{
+      top: 95vh;
+    }
+
     .image-container{
       position: relative;
-      margin-top: 12.5vh;
+      margin-top: 7vh;
       overflow: hidden;
       height: 50vh;
       padding: 0;
@@ -203,6 +231,7 @@ padding: 0;
       width: auto;
     }
     .copy-container{
+      height: 43vh;
       margin-top: -5vh;
       padding-top: 7vh;
       padding-bottom: 4vh;
@@ -211,6 +240,106 @@ padding: 0;
       padding-bottom: 1.5vh;
     }
 }
+
+
+/* begins reveal section */
+
+#people{
+  height: 125vh!important;
+  position: relative;
+
+  h2{
+    margin-bottom: 25px;
+  }
+
+  img{
+    height: auto;
+    position: absolute;
+  }
+}
+
+/* animation */
+
+iframe{
+  height: 100vh;
+}
+
+#people{
+.svg1 {
+  position: fixed;
+  animation: scale 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -.01s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100vh;
+  width: auto;
+
+}
+
+@keyframes scale {
+  to {
+    transform: scale(16000) translateY(700px);
+
+  }
+}
+
+.svg2 {
+  position: fixed;
+  animation: scale2 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -.01s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+
+  top: 0vh;
+}
+
+
+@keyframes scale2 {
+  to {
+    transform: scale(15000) translateY(-5000px) translateX(-50vw);
+
+  }
+}
+
+
+}
+/* CLOSE #PEOPLE */
+
+.zoom{
+  position: fixed;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.zoom-1{
+    background-image: url('../assets/images/luxe.png');
+    h2{
+      color: white!important;
+    }
+    p{
+      color: white!important;
+    }
+}
+
+.zoom-2{
+    background-image: url('../assets/images/meticulous.png');
+    h2{
+    }
+}
+
+.reveal-container{
+  margin-top: 15vh;
+}
+
+/* ends reveal section */
 
 /* ENDS HOME */
 
