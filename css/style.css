@@ -164,7 +164,7 @@ footer {
     height: 100%;
     width: auto; }
   #container-2 .copy-container {
-    height: 43vh;
+    min-height: 43vh;
     margin-top: -5vh;
     padding-top: 7vh;
     padding-bottom: 4vh; }
@@ -194,14 +194,13 @@ iframe {
   animation-fill-mode: both;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: -100vw;
   right: 0;
   margin: auto;
-  height: 100vh;
-  width: auto; }
+  width: 300vw; }
 @keyframes scale {
   to {
-    transform: scale(16000) translateY(700px); } }
+    transform: scale(16000) translateY(1200px); } }
 #people .svg2 {
   position: fixed;
   animation: scale2 1s linear infinite;
