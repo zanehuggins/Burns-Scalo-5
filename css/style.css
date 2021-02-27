@@ -10,7 +10,13 @@ main {
 section {
   height: 100vh;
   float: left;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
+
+.copy-container {
+  background-color: rgba(229, 229, 229, 0.5);
+  z-index: 1;
+  position: absolute; }
 
 h1 {
   font-family: macklin;
@@ -52,6 +58,16 @@ p {
 .orange-underline {
   border-bottom: 6px solid #F26524; }
 
+/* SNAP SCROLL */
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory; }
+
+section {
+  height: 100vh;
+  scroll-snap-align: center; }
+
 /* ENDS UNIVERSAL STYLES */
 /* ----------------------------------------------------------------- */
 /* BEGINS HEADER */
@@ -60,7 +76,8 @@ header {
   float: left;
   z-index: 200;
   background-color: white;
-  position: fixed; }
+  position: fixed;
+  border-bottom: 1px solid lightgray; }
   header div {
     float: left; }
   header img {
@@ -68,16 +85,19 @@ header {
     float: left; }
 
 /*CLOSES HEADER */
+.dropdown-menu-custom {
+  margin-left: -10px !important;
+  margin-top: 5px; }
+
 /* ENDS HEADER */
 /* ----------------------------------------------------------------- */
 /* BEGINS FOOTER */
 footer {
+  float: left;
   background-color: white;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 0;
-  position: fixed;
-  bottom: 0;
   z-index: 200;
   /*close ul*/ }
   footer ul {
@@ -103,14 +123,35 @@ footer {
 /* ENDS FOOTER */
 /* ----------------------------------------------------------------- */
 /* BEGINS HOME */
-#home-1 h1 {
+#conatiner-1 h1 {
   float: left;
   position: absolute;
   bottom: 10vh; }
-#home-1 .video-background {
+#conatiner-1 .video-background {
   width: auto;
   height: 100vh;
   z-index: -100; }
+
+#container-2 {
+  padding: 0; }
+  #container-2 .image-container {
+    position: relative;
+    margin-top: 12.5vh;
+    overflow: hidden;
+    height: 50vh;
+    padding: 0; }
+  #container-2 img {
+    padding: 0;
+    float: left;
+    position: absolute;
+    height: 100%;
+    width: auto; }
+  #container-2 .copy-container {
+    margin-top: -5vh;
+    padding-top: 7vh;
+    padding-bottom: 4vh; }
+  #container-2 h2 {
+    padding-bottom: 1.5vh; }
 
 /* ENDS HOME */
 /* ----------------------------------------------------------------- */
