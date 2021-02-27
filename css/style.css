@@ -1,0 +1,113 @@
+/* BEGIN UNIVERSAL STYLES */
+body {
+  overflow-x: hidden; }
+
+main {
+  height: 100vh;
+  position: relative;
+  overflow: hidden; }
+
+section {
+  height: 100vh;
+  float: left;
+  position: relative; }
+
+h1 {
+  font-family: macklin;
+  font-weight: 900;
+  font-style: italic;
+  color: #333033; }
+
+h2 {
+  font-family: gotham;
+  font-weight: 900;
+  color: #333033; }
+
+h3 {
+  font-family: gotham;
+  font-weight: 900;
+  color: #333033; }
+
+h4 {
+  font-family: gotham;
+  font-weight: 900;
+  color: #333033; }
+
+h5 {
+  font-family: gotham;
+  font-weight: 900;
+  color: #333033; }
+
+p {
+  font-family: gotham;
+  font-size: 14px; }
+
+.green-underline {
+  border-bottom: 6px solid #C2D500; }
+
+.turquoise-underline {
+  border-bottom: 6px solid #00AC98; }
+
+.orange-underline {
+  border-bottom: 6px solid #F26524; }
+
+/* ENDS UNIVERSAL STYLES */
+/* ----------------------------------------------------------------- */
+/* BEGINS HEADER */
+header {
+  padding: 15px;
+  float: left;
+  z-index: 200;
+  background-color: white;
+  position: fixed; }
+  header div {
+    float: left; }
+  header img {
+    width: 100%;
+    float: left; }
+
+/*CLOSES HEADER */
+/* ENDS HEADER */
+/* ----------------------------------------------------------------- */
+/* BEGINS FOOTER */
+footer {
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 0;
+  position: fixed;
+  bottom: 0;
+  z-index: 200;
+  /*close ul*/ }
+  footer ul {
+    list-style: none;
+    float: left;
+    padding: 0;
+    /*close li*/ }
+    footer ul li {
+      float: left;
+      text-align: center;
+      padding: 5px; }
+    footer ul a {
+      color: #333033;
+      text-decoration: none;
+      font-size: 10px;
+      letter-spacing: 2px;
+      padding: 0; }
+    footer ul img {
+      width: 15px;
+      height: auto; }
+
+/* CLOSES FOOTER */
+/* ENDS FOOTER */
+/* ----------------------------------------------------------------- */
+/* BEGINS HOME */
+#home-1 .video-background {
+  width: auto;
+  height: 100vh;
+  z-index: 0; }
+
+/* ENDS HOME */
+/* ----------------------------------------------------------------- */
+
+/*# sourceMappingURL=style.css.map */
