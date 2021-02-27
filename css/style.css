@@ -215,8 +215,9 @@ footer {
     position: absolute; }
 
 /* animation */
-iframe {
-  height: 100vh; }
+embed {
+  height: 100vh;
+  width: 100vw; }
 
 #people .svg1 {
   position: fixed;
