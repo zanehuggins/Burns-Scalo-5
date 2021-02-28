@@ -163,10 +163,12 @@ list-style: none;
 
 li{
 text-align: center;
-padding: 25px;
+padding-left: 25px;
+padding-right: 25px;
 font-family: gotham;
 letter-spacing: 2px;
 transition: 1s;
+margin-bottom: 7.5vh;
 }
 a{
 color: $black;
@@ -182,10 +184,12 @@ text-decoration: none;
   padding-top: 10vh;
   li{
 text-align: center;
-padding: 25px;
+padding-left: 25px;
+padding-right: 25px;
 font-family: gotham;
 letter-spacing: 2px;
 transition: 1s;
+margin-bottom: 7.5vh;
   }
   a{
 color: $black;
@@ -217,7 +221,9 @@ text-decoration: none;
 .nav-item-5{
   animation-name: fade-2;
   animation-duration: 2.5s;
-
+}
+#active{
+  border-bottom: 6px solid $turquoise;
 }
 
 
