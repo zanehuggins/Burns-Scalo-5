@@ -77,6 +77,44 @@ section {
   height: 100vh;
   scroll-snap-align: center; }
 
+/* ENDS SNAP SCROLL */
+nav {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  padding-top: 20vh;
+  z-index: 199;
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); }
+
+#nav {
+  display: none; }
+
+.main-nav {
+  list-style: none; }
+  .main-nav li {
+    text-align: center;
+    padding: 25px;
+    font-family: gotham;
+    letter-spacing: 2px;
+    transition: 1s; }
+  .main-nav a {
+    color: #333033;
+    text-decoration: none; }
+
+.secondary-nav {
+  border-top: 2px solid lightgray;
+  list-style: none;
+  margin-top: 10vh;
+  padding-top: 10vh; }
+  .secondary-nav li {
+    text-align: center;
+    padding: 25px; }
+  .secondary-nav a {
+    color: #333033;
+    text-decoration: none; }
+
 /* ENDS UNIVERSAL STYLES */
 /* ----------------------------------------------------------------- */
 /* BEGINS HEADER */
