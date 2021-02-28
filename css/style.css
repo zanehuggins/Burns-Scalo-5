@@ -253,15 +253,16 @@ footer {
     footer ul li {
       float: left;
       text-align: center;
-      padding: 5px; }
+      padding-left: 10px;
+      padding-right: 10px; }
     footer ul a {
       color: #333033;
       text-decoration: none;
-      font-size: 10px;
+      font-size: 12px;
       letter-spacing: 2px;
       padding: 0; }
     footer ul img {
-      width: 15px;
+      width: 35px;
       height: auto; }
 
 /* CLOSES FOOTER */
@@ -443,6 +444,24 @@ footer {
 
 /* ends reveal section */
 /* ENDS HOME */
+/* ----------------------------------------------------------------- */
+/* BEGINS WHAT WE DO */
+#what-we-do h2 {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+#what-we-do h3 {
+  margin-top: 5px; }
+#what-we-do .copy-container {
+  padding-bottom: 0; }
+  #what-we-do .copy-container ul {
+    list-style: none;
+    padding: 0; }
+    #what-we-do .copy-container ul li {
+      font-family: gotham;
+      margin-top: 10px; }
+
+/* CLOSES WHAT WE DO */
+/* ENDS WHAT WE DO */
 /* ----------------------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
