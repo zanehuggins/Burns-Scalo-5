@@ -108,6 +108,11 @@ section {
 
 /* ENDS SNAP SCROLL */
 
+#nav{
+
+
+}
+
 nav{
   height: 100vh;
   width: 100vw;
@@ -117,11 +122,41 @@ nav{
   background-color: rgba(255, 255, 255, .75);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  display: none;
+  opacity: 0;
+  transition: .5s;
 }
 
-#nav{
-  display: none;
+.display-toggle{
+  display: block;
+  animation-name: fade;
+  transition: .5s;
+  animation-duration: .25s;
+  animation-iteration-count: 1;
+  opacity: 1;
 }
+
+@keyframes fade{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes fade-2{
+  from{
+    opacity: 0;
+    margin-left: -50px;
+  }
+  to{
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+
 
 .main-nav{
 list-style: none;
@@ -136,6 +171,7 @@ transition: 1s;
 a{
 color: $black;
 text-decoration: none;
+
 }
 }
 
@@ -147,11 +183,41 @@ text-decoration: none;
   li{
 text-align: center;
 padding: 25px;
+font-family: gotham;
+letter-spacing: 2px;
+transition: 1s;
   }
   a{
 color: $black;
 text-decoration: none;
   }
+}
+
+.nav-item-1{
+  animation-name: fade-2;
+  animation-duration: .5s;
+
+}
+
+.nav-item-2{
+  animation-name: fade-2;
+  animation-duration: 1s;
+}
+
+.nav-item-3{
+  animation-name: fade-2;
+  animation-duration: 1.5s;
+}
+
+.nav-item-4{
+  animation-name: fade-2;
+  animation-duration: 2s;
+}
+
+.nav-item-5{
+  animation-name: fade-2;
+  animation-duration: 2.5s;
+
 }
 
 
