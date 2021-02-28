@@ -155,7 +155,9 @@ nav {
     opacity: 1;
     margin-left: 0; } }
 .main-nav {
-  list-style: none; }
+  list-style: none;
+  padding-left: 5vw;
+  padding-right: 5vw; }
   .main-nav li {
     text-align: center;
     padding-left: 25px;
@@ -206,7 +208,7 @@ nav {
   animation-duration: 2.5s; }
 
 #active {
-  border-bottom: 6px solid #00AC98; }
+  border-bottom: 2px solid #00AC98; }
 
 /* ENDS UNIVERSAL STYLES */
 /* ----------------------------------------------------------------- */

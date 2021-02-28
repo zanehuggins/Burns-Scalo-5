@@ -202,7 +202,8 @@ nav{
 
 .main-nav{
 list-style: none;
-
+padding-left: 5vw;
+padding-right: 5vw;
 li{
 text-align: center;
 padding-left: 25px;
@@ -265,7 +266,7 @@ text-decoration: none;
   animation-duration: 2.5s;
 }
 #active{
-  border-bottom: 6px solid $turquoise;
+  border-bottom: 2px solid $turquoise;
 }
 
 
