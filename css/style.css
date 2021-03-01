@@ -549,5 +549,30 @@ footer {
 
 /* CLOSE PORTFOLIO */
 /* ENDS PORTFOLIO */
+/* ----------------------------------------------------------------- */
+/* BEGINS 768PX MEDIA QUERY */
+@media (min-width: 768px) {
+  /* BEGINS HEADER 768 */
+  .dropdown-menu-custom {
+    padding-top: 5px;
+    max-width: 35px;
+    height: auto; }
+
+  /* ENDS HEADER 768 */
+  /* ----------------------------------------------------------------- */
+  #container-2 .image-container {
+    position: relative;
+    margin-top: 7vh;
+    overflow: hidden;
+    height: 50vh;
+    padding: 0; }
+  #container-2 img {
+    padding: 0;
+    float: left;
+    position: absolute;
+    height: auto !important;
+    width: 100% !important; } }
+/* !!CLOSES 768PX @MEDIA QUERY!! */
+/* ----------------------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
