@@ -656,6 +656,19 @@ padding: 0;
 
 /* PORTFOLIO PAGE */
 
+.aside-toggle{
+  margin-top: 10vh;
+  float: left;
+}
+
+.aside-display-toggle{
+  display: block;
+}
+
+aside{
+  display: none;
+}
+
 #portfolio{
   section{
     padding-top: 15vh;
